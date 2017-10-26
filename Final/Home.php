@@ -17,46 +17,17 @@
 			<?php include 'header.php'; ?>
 
 	<body>
-		<header>
-			<!--<a href="index.html"><img class="logo" src="img/logo1.jpg"></a>
+		<form action="Home.php" method="POST">
+			<input type="text" name="searchdtrip" placeholder="Depature Stations" length="100px">
+			<input type="text" name="searchatrip" placeholder="Arrive Stations" length="100px">
+			<input type="text" name="depatime" placeholder="When do you want to depature" length="100px">
+			<input type="date" name="thedate">
+			<input type="submit" value="Find Trips">
+		</form>
 			
-				<a href="#" class="showmenu">
-					<img class="hamburgericon" src="img/hamburger.png">
-				</a>
-			
-			<nav class="nav">
-
-				<ul>
-					<li><a href="workpage.html">Work</a></li>
-					<li><a href="aboutpage.html">About</a></li>
-					<li><a href="contactpage.html">Contact</a></li>
-				</ul>
-			</nav>
-			
-		</header>
-		
-		<main id="thisisus">
-			<section>
-				<h1>About us</h1>
-			</section>
-			<section>
-				<div>
-					<img src="train.jpg" class="thisisus_img"/>
-					<p class="img_description">Agency represents a number of directions which are carefully set for each customer who is travelling, depending on their particular field of expertise and the nature of their geography.</p>
-				</div>
-				<div>
-					<img src="securitychecks.jpg" class="thisisus_img"/>
-					<p class="img_description">From institutional and industrial business, to corporate branding and commercials, our dedicated team of professionals use cameras for security reasons, who have many years of security checking , provide Agency with the experience, set to meet the needs of any corporate customers assignment in Sweden.</p>
-				</div>
-				<div>
-					<img src="laggage.jpg" class="thisisus_img"/>
-					<p class="img_description">With any kind of requirements from our clients, the flexibility and skills of our senior workers  allow us to satisfy your needs.</p>
-				</div>
-			</section>
-		</main>-->
 		
 	
- <?php
+<?php
 	echo include 'footer.php';
 ?>
 
